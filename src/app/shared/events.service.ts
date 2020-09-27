@@ -52,4 +52,10 @@ export class EventsService {
       ]
     }
   ];
+  public setData(data: Event[]): void {
+    this.events = data;
+  }
+  public getData(): Event[] {
+    return this.events;
+  }
 }
