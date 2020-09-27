@@ -1,0 +1,38 @@
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.main-nav ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.main-nav .brand-container{
+  display: flex;
+}
+
+.brand-container h2{
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.main-nav ul .item{
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+
+ul .item a{
+  text-decoration: none;
+  color: #555;
+}
+
+ul .item a.active{
+  text-decoration: none;
+  color: black;
+}
